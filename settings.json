@@ -33,5 +33,9 @@
     "notebook.output.wordWrap": true,
     "notebook.output.textLineLimit": 10,
     "notebook.output.scrolling": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o",
+    "gitlens.ai.generateCommitMessage.customInstructions": "Generate a commit message in English using Conventional Commits format: type(scope): short description. Keep the subject under 50 characters. Follow with a body of no more than 2 sentences. Examples: ['feat(ui): add hover effect to sidebar', 'fix(api): correct null pointer in user service']",
+    "git.autofetch": true
 }
